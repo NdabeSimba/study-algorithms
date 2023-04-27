@@ -1,6 +1,7 @@
 num = int(input())
 final_num = num
 count = 0
+
 while True :
     front = int(num / 10)
     back = num - (front * 10)

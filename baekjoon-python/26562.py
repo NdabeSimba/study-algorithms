@@ -8,6 +8,7 @@ dic = {
     "Washington" : 1
 }
 name = [list(map(str, input().split())) for _ in range(num)]
+
 for i in range(num):
     mon = 0
     for j in range(len(name[i])):
