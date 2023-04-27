@@ -16,7 +16,7 @@
 #         t = 23
 #         print(t, m-45)
 
-# better code, efficient time-wise
+# better code, better efficiency time-wise
 H, M = map(int, input().split())
 if M < 45 :
     if H == 0 :

@@ -1,2 +1,3 @@
-record of personal study <div>
-mostly algorithmic learning, based on python and java.
+<div>
+record of personal study session <div>
+algorithmic learning, mostly on python and java.
