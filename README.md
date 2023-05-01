@@ -1,3 +1,1 @@
-<div>
-record of personal study session <div>
-algorithmic learning, mostly on python and java.
+algorithm learning log, using python and java.
