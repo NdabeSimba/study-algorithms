@@ -1,4 +1,4 @@
-package Java.bronze;
+package Java.mathematics;
 
 public class Main24262 {
     public static void main(String[] args) {

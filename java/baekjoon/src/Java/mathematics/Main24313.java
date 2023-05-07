@@ -1,4 +1,4 @@
-package Java.silver;
+package Java.mathematics;
 
 import java.util.Scanner;
 

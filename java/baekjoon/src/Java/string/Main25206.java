@@ -1,4 +1,4 @@
-package Java.silver;
+package Java.string;
 
 import java.util.Scanner;
 import java.util.Arrays;
