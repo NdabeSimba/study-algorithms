@@ -13,17 +13,17 @@ If  is odd, print Weird
 ---
 
 ## Input Format
-<code>A single line containing a positive integer, n.</code>
+A single line containing a positive integer, <code>n</code>.
 
 ---
 
 ## Constraints
-1 <= n <= 100
+1 <= <code>n</code> <= 100
 
 ---
 
 ## Output Format
-<code>Print Weird if the number is weird. Otherwise, print Not Weird.</code>
+Print Weird if the number is weird. Otherwise, print <code>Not Weird</code>.
 
 ---
 

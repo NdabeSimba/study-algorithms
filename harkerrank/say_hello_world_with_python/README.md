@@ -3,7 +3,7 @@
 ---
 
 ## 출력
-<code>Print Hello, World! to stdout.</code>
+Print <code>Hello, World!</code> to stdout.
 
 ---
 
