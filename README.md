@@ -1,7 +1,7 @@
-## algorithm learning log
+## algorithm study log
+
 ---
 
-<br/><br/>
 ### LeetCode
 
 | # | Title | Solution | Difficulty |
@@ -9,8 +9,8 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](./leetcode/two_sum/main.py)|Easy|
 |13|[Roman To Integer](https://leetcode.com/problems/roman-to-integer/)|[Python](./leetcode/roman_to_integer/main.py)|Easy|
 
+---
 
-<br/><br/>
 ### Baekjoon
 
 ##### [ Gold ]
@@ -43,9 +43,8 @@
 |24313|[알고리즘 수업 - 점근적 표기 1](https://www.acmicpc.net/problem/24313)|[Python]()
 |25206|[너의 평점은](https://www.acmicpc.net/problem/25206)|[Python]()
 
+---
 
-
-<br/><br/>
 ### HackerRank
 
 | # | Title | Solution | Difficulty |
