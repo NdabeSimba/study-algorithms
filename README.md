@@ -13,8 +13,6 @@
 <br/><br/>
 ### Baekjoon
 
-<br/>
-
 ##### [ Gold ]
 | # | Title | Solution |
 |---| ----- | -------- |
