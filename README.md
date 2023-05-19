@@ -11,6 +11,20 @@
 
 ---
 
+### HackerRank
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1|[Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world)|[Python](./harkerrank/say_hello_world_with_python)|Easy|
+|2|[Python If-Else](https://www.hackerrank.com/challenges/py-if-else)|[Python](./harkerrank/python_if_else)|Easy|
+|3|[Python: Division](https://www.hackerrank.com/challenges/python-division)|[Python](./harkerrank/python_division)|Easy|
+|4|[Loops](https://www.hackerrank.com/challenges/python-loops)|[Python](./harkerrank/loops)|Easy|
+|5|[Write a function](https://www.hackerrank.com/challenges/write-a-function)|[Python](./harkerrank/write_a_function)|Easy|
+|6|[Print Function](https://www.hackerrank.com/challenges/python-print)|[Python](./harkerrank/print_function)|Easy|
+|7|[Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)|[Python](./harkerrank/arithmetic_operators)|Easy|
+
+---
+
 ### Baekjoon
 
 ##### [ Gold ]
@@ -27,6 +41,7 @@
 |---| ----- | -------- |
 |1010|[다리 놓기](https://www.acmicpc.net/problem/1010)|[Python](./baekjoon/python/combinatorics/1010)
 |1181|[단어 정렬](https://www.acmicpc.net/problem/1181)|[Python](./baekjoon/python/sorting/1181)
+|1316|[그룹 단어 체커](https://www.acmicpc.net/problem/1316)|[Python](./baekjoon/python/string/1316)
 |1358|[하키](https://www.acmicpc.net/problem/1358)|[Python](./baekjoon/python/geometry/1358)
 |1388|[바닥 장식](https://www.acmicpc.net/problem/1388)|[Python](./baekjoon/python/graph-theory/1388)
 |1929|[소수 구하기](https://www.acmicpc.net/problem/1929)|[Python](./baekjoon/python/mathematics/1929)
@@ -43,16 +58,3 @@
 |24313|[알고리즘 수업 - 점근적 표기 1](https://www.acmicpc.net/problem/24313)|[Java](./baekjoon/java/src/mathematics/Main24313.java)
 |25206|[너의 평점은](https://www.acmicpc.net/problem/25206)|[Java](./baekjoon/java/src/string/Main25206.java)
 
----
-
-### HackerRank
-
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|1|[Say "Hello, World!" With Python](https://www.hackerrank.com/challenges/py-hello-world)|[Python](./harkerrank/say_hello_world_with_python)|Easy|
-|2|[Python If-Else](https://www.hackerrank.com/challenges/py-if-else)|[Python](./harkerrank/python_if_else)|Easy|
-|3|[Python: Division](https://www.hackerrank.com/challenges/python-division)|[Python](./harkerrank/python_division)|Easy|
-|4|[Loops](https://www.hackerrank.com/challenges/python-loops)|[Python](./harkerrank/loops)|Easy|
-|5|[Write a function](https://www.hackerrank.com/challenges/write-a-function)|[Python](./harkerrank/write_a_function)|Easy|
-|6|[Print Function](https://www.hackerrank.com/challenges/python-print)|[Python](./harkerrank/print_function)|Easy|
-|7|[Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)|[Python](./harkerrank/arithmetic_operators)|Easy|
