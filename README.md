@@ -9,6 +9,7 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](./leetcode/two_sum)|Easy|
 |9|[palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python](./leetcode/palindrome_number/)|Easy|
 |13|[Roman To Integer](https://leetcode.com/problems/roman-to-integer/)|[Python](./leetcode/roman_to_integer)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Python](./leetcode/longest_common_prefix/)|Easy|
 
 ---
 
