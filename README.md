@@ -24,6 +24,7 @@
 |5|[Write a function](https://www.hackerrank.com/challenges/write-a-function)|[Python](./harkerrank/write_a_function)|Easy|
 |6|[Print Function](https://www.hackerrank.com/challenges/python-print)|[Python](./harkerrank/print_function)|Easy|
 |7|[Arithmetic Operators](https://www.hackerrank.com/challenges/python-arithmetic-operators)|[Python](./harkerrank/arithmetic_operators)|Easy|
+|8|[Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list)|[Python](./harkerrank/find_the_runner_up_score)|Easy|
 
 ---
 
