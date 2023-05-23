@@ -68,6 +68,40 @@
 
 # baekjoon 2338 https://www.acmicpc.net/problem/2338
 
-A = int(input())
-B = int(input())
-print(A + B, A - B, A * B, sep="\n")
+# A = int(input())
+# B = int(input())
+# print(A + B, A - B, A * B, sep="\n")
+
+# ----------------------------------------------------------------------
+
+# print(*[i+1 for i in range(int(input()))],sep="\n")
+
+# ----------------------------------------------------------------------
+
+# line = list(input())
+# for i in range(len(line)):
+#     if line[i].isupper() == True:
+#         line[i] = line[i].lower()
+#     else:
+#         line[i] = line[i].upper()
+# print(*line,sep='')
+
+# ----------------------------------------------------------------------
+
+hashmap = {
+    "A+": 4.3,
+    "A0": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B0": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C0": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D0": 1.0,
+    "D-": 0.7,
+    "F": 0.0,
+}
+
+print(hashmap[input()])
