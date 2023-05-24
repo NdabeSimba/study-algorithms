@@ -142,4 +142,7 @@
 
 # ----------------------------------------------------------------------
 
-
+if __name__ == '__main__':
+    n = int(input())
+    lis = map(int,input().split())
+    print(hash(tuple(lis)))
