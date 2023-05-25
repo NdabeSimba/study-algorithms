@@ -142,7 +142,22 @@
 
 # ----------------------------------------------------------------------
 
-if __name__ == '__main__':
-    n = int(input())
-    lis = map(int,input().split())
-    print(hash(tuple(lis)))
+# if __name__ == '__main__':
+#     n = int(input())
+#     lis = map(int,input().split())
+#     print(hash(tuple(lis)))
+
+# ----------------------------------------------------------------------
+
+while True:
+    line = list(input().lower())
+    count = 0
+    if line[0] == '#':
+        break
+    else:
+        for i in range(len(line)):
+            if line[i] in ['a','e','i','o','u']:
+                count += 1
+        print(count)
+    
+        
