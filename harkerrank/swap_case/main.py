@@ -1,12 +1,15 @@
 def swap_case(s):
-    line = list(input())
+    line = list(s)
+    temp = ''
     for i in range(len(line)):
         if line[i].isupper() == True:
-            line[i] = line[i].lower()
+            temp += line[i].lower()
+        elif line[i].isupper() == False:
+            temp += line[i].upper()
         else:
-            line[i] = line[i].upper()
-        print(*line,sep='')
-        return
+            continue
+    return temp
+
 
 if __name__ == '__main__':
     s = input()
