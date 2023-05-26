@@ -149,15 +149,24 @@
 
 # ----------------------------------------------------------------------
 
+# while True:
+#     line = list(input().lower())
+#     count = 0
+#     if line[0] == '#':
+#         break
+#     else:
+#         for i in range(len(line)):
+#             if line[i] in ['a','e','i','o','u']:
+#                 count += 1
+#         print(count)
+
+# ----------------------------------------------------------------------
+
 while True:
-    line = list(input().lower())
-    count = 0
-    if line[0] == '#':
+    name, age, weight = map(str, input().split())
+    if name == "#" and age == weight == '0':
         break
+    if int(age) > 17 or int(weight) >= 80:
+        print(name, "Senior")
     else:
-        for i in range(len(line)):
-            if line[i] in ['a','e','i','o','u']:
-                count += 1
-        print(count)
-    
-        
+        print(name, "Junior")
