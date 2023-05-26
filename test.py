@@ -212,6 +212,34 @@
 
 # ----------------------------------------------------------------------
 
-num = int(input())
-for i in range(num):
-    print(str(i+1)+'.',input())
+# num = int(input())
+# for i in range(num):
+#     print(str(i+1)+'.',input())
+
+# ----------------------------------------------------------------------
+
+# for _ in range(int(input())):
+#     print(input().lower())
+
+# ----------------------------------------------------------------------
+
+# vac = int(input())
+# math = int(input())
+# lang = int(input())
+# max_m = int(input())
+# max_l = int(input())
+
+# if math / max_m > math // max_m:
+#     day_m = math // max_m + 1
+# else:
+#     day_m = math // max_m
+
+# if lang / max_l > lang // max_l:
+#     day_l = lang // max_l + 1
+# else:
+#     day_l = lang // max_l
+
+# print(vac - max(day_m, day_l))
+
+# ----------------------------------------------------------------------
+
