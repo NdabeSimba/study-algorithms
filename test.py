@@ -1,4 +1,4 @@
-# baekjoon 10988 https://www.acmicpc.net/problem/10988
+# https://www.acmicpc.net/problem/10988
 # 31256	kb 40 ms
 
 # word = list(input())
@@ -14,7 +14,7 @@
 
 # ----------------------------------------------------------------------
 
-# baekjoon 2738 https://www.acmicpc.net/problem/2738
+# https://www.acmicpc.net/problem/2738
 # 31256 kb, 60 ms
 # 31256 kb, 56 ms
 
@@ -47,14 +47,14 @@
 
 # ----------------------------------------------------------------------
 
-# baekjoon 1271 https://www.acmicpc.net/problem/1271
+# https://www.acmicpc.net/problem/1271
 
 # mon, peo = map(int, input().split())
 # print(mon // peo, mon % peo,sep="\n")
 
 # ----------------------------------------------------------------------
 
-# baekjoon 1809 https://www.acmicpc.net/problem/1809
+# https://www.acmicpc.net/problem/1809
 
 # golfscript
 # "(___)
@@ -65,8 +65,6 @@
 #  ^^   ^^"
 
 # ----------------------------------------------------------------------
-
-# baekjoon 2338 https://www.acmicpc.net/problem/2338
 
 # A = int(input())
 # B = int(input())
@@ -190,6 +188,7 @@
 
 # ----------------------------------------------------------------------
 
+# https://www.acmicpc.net/problem/4299
 # sum, dif = map(int, input().split())
 
 # if sum < dif:
@@ -204,6 +203,7 @@
 
 # ----------------------------------------------------------------------
 
+# https://www.acmicpc.net/problem/3765
 # try:
 #     while True :
 #         print(input())
@@ -253,10 +253,31 @@
 
 # ----------------------------------------------------------------------
 
-tm1 = int(input())
-tm2 = int(input())
-tm3 = int(input())
-tm4 = int(input())
+# tm1 = int(input())
+# tm2 = int(input())
+# tm3 = int(input())
+# tm4 = int(input())
 
-print((tm1 + tm2 + tm3 + tm4) // 60)
-print((tm1 + tm2 + tm3 + tm4) % 60)
+# print((tm1 + tm2 + tm3 + tm4) // 60)
+# print((tm1 + tm2 + tm3 + tm4) % 60)
+
+# ----------------------------------------------------------------------
+
+# def split_and_join(line):
+#     line = line.strip().split(" ")
+#     return "-".join(line)
+
+# if __name__ == '__main__':
+#     line = input()
+#     result = split_and_join(line)
+#     print(result)
+
+# ----------------------------------------------------------------------
+
+# https://www.acmicpc.net/problem/5575
+# for i in range(3):
+#     fh, fm, fs, lh, lm, ls = map(int, input().split())
+#     time = ((lh * 3600) + (lm * 60) + ls) - ((fh * 3600) + (fm * 60) + fs)
+#     print(time // 3600, (time % 3600) // 60, (time % 3600) % 60)
+
+# ----------------------------------------------------------------------
