@@ -156,7 +156,7 @@
 #         break
 #     else:
 #         for i in range(len(line)):
-#             if line[i] in ['a','e','i','o','u']:
+#             if line[i] in ['sum','e','i','o','u']:
 #                 count += 1
 #         print(count)
 
@@ -189,4 +189,24 @@
 # print(2*S-R1)
 
 # ----------------------------------------------------------------------
+
+# sum, dif = map(int, input().split())
+
+# if sum < dif:
+#     print(-1)
+# else:
+#     a = (sum + dif) // 2
+#     b = (sum - dif) // 2
+#     if (a + b) == sum and (a - b) == dif:
+#         print(max(a, b), min(a, b))
+#     else:
+#         print(-1)
+
+# ----------------------------------------------------------------------
+
+# try:
+#     while True :
+#         print(input())
+# except:
+#     exit()
 
