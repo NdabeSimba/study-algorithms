@@ -162,11 +162,17 @@
 
 # ----------------------------------------------------------------------
 
-while True:
-    name, age, weight = map(str, input().split())
-    if name == "#" and age == weight == '0':
-        break
-    if int(age) > 17 or int(weight) >= 80:
-        print(name, "Senior")
-    else:
-        print(name, "Junior")
+# while True:
+#     name, age, weight = map(str, input().split())
+#     if name == "#" and age == weight == '0':
+#         break
+#     if int(age) > 17 or int(weight) >= 80:
+#         print(name, "Senior")
+#     else:
+#         print(name, "Junior")
+
+# ----------------------------------------------------------------------
+
+Lj, area = map(int, input().split())
+p1, p2, p3, p4, p5 = map(int, input().split())
+print(p1 - (Lj * area), p2 - (Lj * area), p3 - (Lj * area), p4 - (Lj * area), p5 - (Lj * area))
