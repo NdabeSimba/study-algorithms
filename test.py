@@ -252,3 +252,11 @@
 # print(min(burg1, burg2, burg3) + min(drink1, drink2) - 50)
 
 # ----------------------------------------------------------------------
+
+tm1 = int(input())
+tm2 = int(input())
+tm3 = int(input())
+tm4 = int(input())
+
+print((tm1 + tm2 + tm3 + tm4) // 60)
+print((tm1 + tm2 + tm3 + tm4) % 60)
