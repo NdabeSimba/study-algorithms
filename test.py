@@ -287,13 +287,24 @@
 
 # ----------------------------------------------------------------------
 
-p1t, p1b = map(int, input().split())
-p2t, p2b = map(int, input().split())
+# p1t, p1b = map(int, input().split())
+# p2t, p2b = map(int, input().split())
 
-if (p1t * 3 + p1b) == (p2t * 3 + p2b):
-    print("NO SCORE")
-else:
-    if (p1t * 3 + p1b) > (p2t * 3 + p2b):
-        print(1, (p1t * 3 + p1b) - (p2t * 3 + p2b))
-    else:
-        print(2, (p2t * 3 + p2b) - (p1t * 3 + p1b))
+# if (p1t * 3 + p1b) == (p2t * 3 + p2b):
+#     print("NO SCORE")
+# else:
+#     if (p1t * 3 + p1b) > (p2t * 3 + p2b):
+#         print(1, (p1t * 3 + p1b) - (p2t * 3 + p2b))
+#     else:
+#         print(2, (p2t * 3 + p2b) - (p1t * 3 + p1b))
+
+# ----------------------------------------------------------------------
+
+# sum = 0
+# for i in range(5):
+#     num = int(input())
+#     sum += num if num > 40 else 40
+# print(sum//5)
+
+# ----------------------------------------------------------------------
+
