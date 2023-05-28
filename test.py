@@ -401,12 +401,29 @@
 
 # ----------------------------------------------------------------------
 
-N = int(input())
+# N = int(input())
 
-for i in reversed(range(1, N + 1)):
-    stars = " " * (N - i) + "*" * ((2 * i) - 1)
-    print(stars)
+# for i in reversed(range(1, N + 1)):
+#     stars = " " * (N - i) + "*" * ((2 * i) - 1)
+#     print(stars)
 
-for i in range(1, N + 1):
-    stars = " " * (N - i) + "*" * ((2 * i) - 1)
-    print(stars)
+# for i in range(1, N + 1):
+#     stars = " " * (N - i) + "*" * ((2 * i) - 1)
+#     print(stars)
+
+# ----------------------------------------------------------------------
+
+# for _ in range(int(input())):
+#     A, B = map(int, input().split(","))
+#     print(A + B)
+
+# ----------------------------------------------------------------------
+
+# while True:
+#     try:
+#         print(input())
+#     except EOFError:
+#         break
+
+# ----------------------------------------------------------------------
+
