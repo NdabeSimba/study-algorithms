@@ -1,7 +1,6 @@
 # https://www.acmicpc.net/problem/10988
 # 31256	kb 40 ms
 
-# %%
 word = list(input())
 result = True
 for i in range(len(word) // 2):
@@ -19,7 +18,6 @@ else:
 # 31256 kb, 60 ms
 # 31256 kb, 56 ms
 
-# %%
 N, M = map(int, input().split())
 lis1 = []
 lis2 = []
@@ -43,17 +41,15 @@ for i in range(N):
     lis2.append(list(map(int, input().split())))
 for i in range(N):
     for j in range(M):
-
-        print(int(lis1[i][j]) + int(lis2[i][j]), end=' ')
+        print(int(lis1[i][j]) + int(lis2[i][j]), end=" ")
     print()
 
 # ----------------------------------------------------------------------
 
 # https://www.acmicpc.net/problem/1271
 
-# %%
 mon, peo = map(int, input().split())
-print(mon // peo, mon % peo,sep="\S")
+print(mon // peo, mon % peo, sep="\S")
 
 # ----------------------------------------------------------------------
 
@@ -69,30 +65,26 @@ print(mon // peo, mon % peo,sep="\S")
 
 # ----------------------------------------------------------------------
 
-# %%
 A = int(input())
 B = int(input())
 print(A + B, A - B, A * B, sep="\S")
 
 # ----------------------------------------------------------------------
 
-# %%
-print(*[i+1 for i in range(int(input()))],sep="\S")
+print(*[i + 1 for i in range(int(input()))], sep="\S")
 
 # ----------------------------------------------------------------------
 
-# %%
 line = list(input())
 for i in range(len(line)):
     if line[i].isupper() == True:
         line[i] = line[i].lower()
     else:
         line[i] = line[i].upper()
-print(*line,sep='')
+print(*line, sep="")
 
 # ----------------------------------------------------------------------
 
-# %%
 hashmap = {
     "A+": 4.3,
     "A0": 4.0,
@@ -113,7 +105,6 @@ print(hashmap[input()])
 
 # ----------------------------------------------------------------------
 
-# %%
 hr, min, sec = map(int, input().split())
 plus_sec = int(input())
 
@@ -140,42 +131,37 @@ print(hr, min, sec)
 
 # ----------------------------------------------------------------------
 
-# %%
-print(*reversed(range(1,int(input())+1)),sep="\S")
+print(*reversed(range(1, int(input()) + 1)), sep="\S")
 
 # ----------------------------------------------------------------------
 
-# %%
 print(*sorted(list(map(int, input().split()))))
 
 # ----------------------------------------------------------------------
 
-# %%
-if __name__ == '__main__':
+if __name__ == "__main__":
     S = int(input())
-    lis = map(int,input().split())
+    lis = map(int, input().split())
     print(hash(tuple(lis)))
 
 # ----------------------------------------------------------------------
 
-# %%
 while True:
     line = list(input().lower())
     count = 0
-    if line[0] == '#':
+    if line[0] == "#":
         break
     else:
         for i in range(len(line)):
-            if line[i] in ['sum','e','i','o','u']:
+            if line[i] in ["sum", "e", "i", "o", "u"]:
                 count += 1
         print(count)
 
 # ----------------------------------------------------------------------
 
-# %%
 while True:
     name, age, weight = map(str, input().split())
-    if name == "#" and age == weight == '0':
+    if name == "#" and age == weight == "0":
         break
     if int(age) > 17 or int(weight) >= 80:
         print(name, "Senior")
@@ -184,7 +170,6 @@ while True:
 
 # ----------------------------------------------------------------------
 
-# %%
 Lj, area = map(int, input().split())
 p1, p2, p3, p4, p5 = map(int, input().split())
 print(
@@ -197,15 +182,13 @@ print(
 
 # ----------------------------------------------------------------------
 
-# %%
 R1, S = map(int, input().split())
-print(2*S-R1)
+print(2 * S - R1)
 
 # ----------------------------------------------------------------------
 
 # https://www.acmicpc.net/problem/4299
 
-# %%
 sum, dif = map(int, input().split())
 
 if sum < dif:
@@ -220,20 +203,17 @@ else:
 
 # ----------------------------------------------------------------------
 
-# %%
 num = int(input())
 for i in range(num):
-    print(str(i+1)+'.',input())
+    print(str(i + 1) + ".", input())
 
 # ----------------------------------------------------------------------
 
-# %%
 for _ in range(int(input())):
     print(input().lower())
 
 # ----------------------------------------------------------------------
 
-# %%
 vac = int(input())
 math = int(input())
 lang = int(input())
@@ -254,7 +234,6 @@ print(vac - max(day_m, day_l))
 
 # ----------------------------------------------------------------------
 
-# %%
 burg1 = int(input())
 burg2 = int(input())
 burg3 = int(input())
@@ -265,7 +244,6 @@ print(min(burg1, burg2, burg3) + min(drink1, drink2) - 50)
 
 # ----------------------------------------------------------------------
 
-# %%
 tm1 = int(input())
 tm2 = int(input())
 tm3 = int(input())
@@ -276,12 +254,11 @@ print((tm1 + tm2 + tm3 + tm4) % 60)
 
 # ----------------------------------------------------------------------
 
-# %%
 def split_and_join(line):
     line = line.strip().split(" ")
     return "-".join(line)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     line = input()
     result = split_and_join(line)
     print(result)
@@ -290,7 +267,6 @@ if __name__ == '__main__':
 
 # https://www.acmicpc.net/problem/5575
 
-# %%
 for i in range(3):
     fh, fm, fs, lh, lm, ls = map(int, input().split())
     time = ((lh * 3600) + (lm * 60) + ls) - ((fh * 3600) + (fm * 60) + fs)
@@ -298,13 +274,11 @@ for i in range(3):
 
 # ----------------------------------------------------------------------
 
-# %%
 K, N, M = map(int, input().split())
 print(((K * N) - M) if (K * N) - M >= 0 else 0)
 
 # ----------------------------------------------------------------------
 
-# %%
 p1t, p1b = map(int, input().split())
 p2t, p2b = map(int, input().split())
 
@@ -318,29 +292,26 @@ else:
 
 # ----------------------------------------------------------------------
 
-# %%
 sum = 0
 for i in range(5):
     num = int(input())
     sum += num if num > 40 else 40
-print(sum//5)
+print(sum // 5)
 
 # ----------------------------------------------------------------------
 
 # https://www.acmicpc.net/problem/10808
 
-# %%
 S = input()
-lis = [0]*26
+lis = [0] * 26
 
 for i in S:
-    lis[ord(i)-97] += 1
+    lis[ord(i) - 97] += 1
 
 print(*lis)
 
 # ----------------------------------------------------------------------
 
-# %%
 restrict = int(input())
 car_list = list(map(int, input().split()))
 
@@ -353,4 +324,25 @@ print(count)
 
 # ----------------------------------------------------------------------
 
-# %%
+# https://www.acmicpc.net/problem/3765
+
+# try:
+#     while True :
+#         print(input())
+# except:
+#     exit()
+
+# ----------------------------------------------------------------------
+
+S = list(map(int, input().split()))
+T = list(map(int, input().split()))
+
+print(max(sum(S), sum(T)))
+
+# ----------------------------------------------------------------------
+
+while True:
+    if input() == "END":
+        break
+    else:
+        print(*reversed(list(input())))
