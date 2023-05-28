@@ -427,3 +427,16 @@
 
 # ----------------------------------------------------------------------
 
+for _ in range(int(input())):
+    a, b = map(int, input().split())
+    A = max(a, b)
+    B = min(a, b)
+
+    def GCM(A, B):
+        if A % B == 0:
+            return B
+        else:
+            R = A % B
+            return GCM(max(R, B), min(R, B))
+
+    print(int(a * b / GCM(A, B)))
