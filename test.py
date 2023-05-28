@@ -350,3 +350,44 @@
 
 # ----------------------------------------------------------------------
 
+# while True:
+#     a, b = map(int, input().split())
+#     if a == b == 0:
+#         break
+#     print(a + b)
+
+# ----------------------------------------------------------------------
+
+# for i in range(int(input())):
+#     print(f"Hello World, Judge {i+1}!")
+
+# ----------------------------------------------------------------------
+
+# https://www.acmicpc.net/problem/2869
+
+# A, B, V = map(int, input().split())
+
+# days = (V - B) / (A - B)
+# if days == int(days):
+#     print(int(days))
+# else:
+#     print(int(days) + 1)
+
+# ----------------------------------------------------------------------
+
+# https://www.acmicpc.net/problem/2609
+a, b = map(int, input().split())
+A = max(a, b)
+B = min(a, b)
+
+
+def GCM(A, B):
+    if A % B == 0:
+        return B
+    else:
+        R = A % B
+        return GCM(max(R, B), min(R, B))
+    
+
+print(GCM(A, B))
+print(int(a * b / GCM(A, B)))
