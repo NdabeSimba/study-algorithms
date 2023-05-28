@@ -376,18 +376,37 @@
 # ----------------------------------------------------------------------
 
 # https://www.acmicpc.net/problem/2609
-a, b = map(int, input().split())
-A = max(a, b)
-B = min(a, b)
+
+# a, b = map(int, input().split())
+# A = max(a, b)
+# B = min(a, b)
 
 
-def GCM(A, B):
-    if A % B == 0:
-        return B
-    else:
-        R = A % B
-        return GCM(max(R, B), min(R, B))
-    
+# def GCM(A, B):
+#     if A % B == 0:
+#         return B
+#     else:
+#         R = A % B
+#         return GCM(max(R, B), min(R, B))
 
-print(GCM(A, B))
-print(int(a * b / GCM(A, B)))
+
+# print(GCM(A, B))
+# print(int(a * b / GCM(A, B)))
+
+# ----------------------------------------------------------------------
+
+# num = int(input())
+# for i in range(1, num + 1):
+#     print(" " * (i - 1) + "*" * (num - i + 1))
+
+# ----------------------------------------------------------------------
+
+N = int(input())
+
+for i in reversed(range(1, N + 1)):
+    stars = " " * (N - i) + "*" * ((2 * i) - 1)
+    print(stars)
+
+for i in range(1, N + 1):
+    stars = " " * (N - i) + "*" * ((2 * i) - 1)
+    print(stars)
