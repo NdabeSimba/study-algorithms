@@ -1,6 +1,3 @@
-## algorithm study log
-
----
 
 ### LeetCode
 
@@ -18,10 +15,10 @@
 
 ### HackerRank
 
-| Language | Subdomains                                 |
-| -------- | ------------------------------------------ |
-| Python   | [Introduction](./harkerrank/introduction/) |
-| Python   | [Strings](./harkerrank/strings/) |
+| Language | Subdomains                                         |
+| -------- | -------------------------------------------------- |
+| Python   | [Introduction](./harkerrank/introduction/)         |
+| Python   | [Strings](./harkerrank/strings/)                   |
 | Python   | [Basic Data Types](./harkerrank/basic-data-types/) |
 
 ---
@@ -53,4 +50,3 @@
 | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870)                     | [Python](./baekjoon/python/sorting/18870/)             | Silver     |
 | 24313 | [알고리즘 수업 - 점근적 표기 1](https://www.acmicpc.net/problem/24313) | [Java](./baekjoon/java/src/mathematics/Main24313.java) | Silver     |
 | 25206 | [너의 평점은](https://www.acmicpc.net/problem/25206)                   | [Java](./baekjoon/java/src/string/Main25206.java)      | Silver     |
-
