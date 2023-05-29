@@ -20,10 +20,9 @@
 
 | Language | Subdomains                                 |
 | -------- | ------------------------------------------ |
-| Python   | [introduction](./harkerrank/introduction/) |
-| Python   | [introduction](./harkerrank/introduction/) |
-| Python   | [introduction](./harkerrank/introduction/) |
-| Python   | [introduction](./harkerrank/introduction/) |
+| Python   | [Introduction](./harkerrank/introduction/) |
+| Python   | [Strings](./harkerrank/strings/) |
+| Python   | [Basic Data Types](./harkerrank/basic-data-types/) |
 
 ---
 
