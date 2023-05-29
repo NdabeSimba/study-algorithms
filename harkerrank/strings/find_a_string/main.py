@@ -1,8 +1,13 @@
-def split_and_join(line):
-    line = line.strip().split(" ")
-    return "-".join(line)
+def count_substring(string, sub_string):
+    total = 0
+    for i in range(len(string)):
+        if string[i:].startswith(sub_string):
+            total += 1
+    return total
 
 if __name__ == '__main__':
-    line = input()
-    result = split_and_join(line)
-    print(result)
+    string = input().strip()
+    sub_string = input().strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)
