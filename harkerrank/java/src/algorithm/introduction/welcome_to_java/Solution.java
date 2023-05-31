@@ -1,4 +1,4 @@
-package java.introduction.welcome_to_java;
+package algorithm.introduction.welcome_to_java;
 
 public class Solution {
 

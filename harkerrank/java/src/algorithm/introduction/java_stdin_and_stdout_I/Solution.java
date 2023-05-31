@@ -1,4 +1,4 @@
-package java.introduction.java_stdin_and_stdout_I;
+package algorithm.introduction.java_stdin_and_stdout_I;
 
 import java.util.*;
 
