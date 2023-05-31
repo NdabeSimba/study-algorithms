@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/10809
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # alphabet = list(range(97,123)) using ASCII table
 
