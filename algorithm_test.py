@@ -1,11 +1,7 @@
 def solve(s):
-    line = s.split()
-    print(line[0][0])
-
-    for i in range(len(line)):
-        temp = str(line[i][0].upper())
-        line[i][0] = temp
-    return str(line)
+    for i in s.split():
+        s = s.replace(i,i.capitalize())
+    return s
 
 
 if __name__ == "__main__":
