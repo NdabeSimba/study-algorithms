@@ -4,32 +4,26 @@ M = int(input())
 compare = list(map(int, input().split()))
 
 
-def binarySearch(arr, l, r, x):
-    # Check base case
-    if r >= l:
-        mid = l + (r - l) // 2
+def binary_search(target, data):
+    start = 0
+    end = N - 1
 
-        # If element is present at the middle itself
-        if arr[mid] == x:
-            return 1
+    while start <= end:
+        mid = (start + end) // 2
 
-        # If element is smaller than mid, then it
-        # can only be present in left subarray
-        elif arr[mid] > x:
-            return binarySearch(arr, l, mid - 1, x)
+        if data[mid] == target:
+            return True
 
-        # Else the element can only be present
-        # in right subarray
+        elif data[mid] < target:
+            start = mid + 1
         else:
-            return binarySearch(arr, mid + 1, r, x)
+            end = mid - 1
 
-    # Element is not present in the array
-    else:
-        return 0
+    return False
 
 
 for i in compare:
-    l = 0
-    r = (N - 1)
-    while True:
-        binarySearch()
+    if binary_search(i, num_lis):
+        print(1)
+    else:
+        print(0)
