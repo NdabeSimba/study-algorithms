@@ -38,7 +38,7 @@
 | 1929  | [소수 구하기](https://www.acmicpc.net/problem/1929)                    | [Python](./baekjoon/python/mathematics/1929)                           | Silver     |
 | 2166  | [다각형의 면적](https://www.acmicpc.net/problem/2166)                  | [Python](./baekjoon/python/geometry/2166-다각형의-면적)                | Gold       |
 | 2292  | [벌집](https://www.acmicpc.net/problem/2292)                           | [Python](./baekjoon/python/geometry/2292-벌집)                         | Bronze     |
-| 2839  | [ŠEĆER](https://www.acmicpc.net/problem/2839)                          | [Python](./baekjoon/python/dynamic-programming/2839)                   | Silver     |
+| 2839  | [ŠEĆER](https://www.acmicpc.net/problem/2839)                          | [Python](./baekjoon/python/dynamic-programming/2839-ŠEĆER)             | Silver     |
 | 2941  | [LJESNJAK](https://www.acmicpc.net/problem/2941)                       | [Python](./baekjoon/python/string/2941-LJESNJAK/)                      | Silver     |
 | 6186  | [Best Grass](https://www.acmicpc.net/problem/6186)                     | [Python](./baekjoon/python/graph-theory/6186)                          | Silver     |
 | 9012  | [Parenthesis](https://www.acmicpc.net/problem/9012)                    | [Python](./baekjoon/python/stack/9012)                                 | Silver     |
