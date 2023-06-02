@@ -7,12 +7,9 @@ import sys
 
 # Complete the solve function below.
 def solve(s):
-    line = s.split()
-
-    for i in range(len(line)):
-        line[i][0].upper()
-
-    return line
+    for i in s.split():
+        s = s.replace(i,i.capitalize())
+    return s
 
 
 if __name__ == '__main__':
