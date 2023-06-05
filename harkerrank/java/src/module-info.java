@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author King
- *
- */
-module java {
-}
